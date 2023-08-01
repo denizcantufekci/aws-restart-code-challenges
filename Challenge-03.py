@@ -49,3 +49,10 @@ print("Result:", result)
 # User Input Case
 given_string = input("Enter a string: ")
 print(replace_first_repeated(given_string))
+
+"""
+# Instructor's Solution
+text = input("")
+text = text[0] + text[1:].replace(text[0], "$")
+print(text)
+"""
