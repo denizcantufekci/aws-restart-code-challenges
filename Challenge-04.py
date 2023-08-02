@@ -48,3 +48,13 @@ print("Expected Result 5:", result)
 # User Input Case
 given_string = input("Enter a string: ")
 print(get_specific_chars(given_string))
+
+"""
+# Instructor's Solution
+text = input("")
+if len(text) < 2 :
+  word = "Empty String"
+else :
+  word = text[0:2] + text[-2:]
+print(word)
+"""
