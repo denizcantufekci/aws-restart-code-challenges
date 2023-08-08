@@ -19,3 +19,10 @@ def fullPyramid(rows):
 rows = int(input("Enter the number of rows: "))
 print("Full Pyramid")
 fullPyramid(rows)
+
+"""
+# Instructor's Solution
+number = int(input("Bir sayı giriniz (Ör: 5): "))
+for i in range(1,number+1) :
+    print(" " * (number +1 -i), *range(1,i+1))
+"""
